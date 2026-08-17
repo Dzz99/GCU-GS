@@ -85,9 +85,6 @@ Download the sparse-view `fused.ply` files from the
 [FSGS data release](https://drive.google.com/drive/folders/1lYqZLuowc84Dg1cyb8ey3_Kb-wvPjDHA)
 and place the corresponding file in each scene's `sparse_views/` directory.
 
-
-```
-
 ### Train and evaluate
 
 The default data root is configured in `scripts/train_llff.sh` as `BASE_DATA`

@@ -4,7 +4,7 @@ set -o pipefail
 
 # The directory containing the LLFF scene folders. Override it at launch with:
 # BASE_DATA=/path/to/LLFF bash scripts/train_llff.sh
-BASE_DATA="${BASE_DATA:-/home/lidar/dzz_3DGS/validation/llff_8}"
+BASE_DATA="${BASE_DATA:-/path/to/LLFF}"
 
 SCENES=("fern" "flower" "fortress" "horns" "leaves" "orchids" "room" "trex")
 
