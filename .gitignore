@@ -1,0 +1,45 @@
+# Python caches and package metadata
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+dist/
+
+# Editors and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Native/CUDA build products
+**/build/
+**/out/
+*.so
+*.o
+*.obj
+*.pyd
+*.a
+*.dll
+*.dylib
+
+# Experiment outputs
+results/
+outputs/
+checkpoints/
+logs/
+wandb/
+*.log
+*.pt
+*.pth
+*.ckpt
+
+# Local datasets and models
+data/
+datasets/
+
+# Local secrets
+.env
+.env.*
+!.env.example
